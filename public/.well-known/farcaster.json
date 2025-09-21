@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "LikeTipz",
+    "subtitle": "Built with Zara",
+    "description": "LikeTipz is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://790a91562cc14333b3c87af7f45d5024-1fiy.vercel.app",
+    "splashImageUrl": "https://790a91562cc14333b3c87af7f45d5024-1fiy.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://790a91562cc14333b3c87af7f45d5024-1fiy.vercel.app/image.png",
+    "tagline": "LikeTipz",
+    "screenshotUrls": [
+      "https://790a91562cc14333b3c87af7f45d5024-1fiy.vercel.app/screenshot.png",
+      "https://790a91562cc14333b3c87af7f45d5024-1fiy.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://790a91562cc14333b3c87af7f45d5024-1fiy.vercel.app/api/webhook"
+  }
+}

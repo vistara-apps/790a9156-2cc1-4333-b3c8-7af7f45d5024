@@ -20,7 +20,13 @@
       "https://liketipz.base.org/screenshot3.png"
     ],
     "primaryCategory": "social",
-    "tags": ["tipping", "creators", "social", "base", "farcaster"],
+    "tags": [
+      "tipping",
+      "creators",
+      "social",
+      "base",
+      "farcaster"
+    ],
     "heroImageUrl": "https://liketipz.base.org/hero.png",
     "tagline": "Tip creators directly on their likes",
     "ogTitle": "LikeTipz - Support Creators Instantly",
