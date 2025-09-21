@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 30% 97%;
+    --surface: 220 30% 99%;
+    --primary: 220 20% 9%;
+    --accent: 219 83% 57%;
+  }
+
+  .dark {
+    --background: 220 20% 8%;
+    --surface: 220 20% 12%;
+    --primary: 220 30% 95%;
+  }
+
+  * {
+    @apply border-gray-200;
+  }
+
+  body {
+    @apply bg-gray-900 text-white;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent text-white px-6 py-3 rounded-lg font-medium transition-all duration-200 hover:bg-blue-600 active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply bg-gray-700 text-white px-6 py-3 rounded-lg font-medium transition-all duration-200 hover:bg-gray-600 active:scale-95;
+  }
+
+  .card {
+    @apply bg-gray-800 rounded-lg p-6 shadow-card border border-gray-700;
+  }
+
+  .tip-circle {
+    @apply relative w-48 h-48 rounded-full bg-white flex items-center justify-center shadow-lg;
+  }
+
+  .tip-circle::before {
+    content: '';
+    @apply absolute inset-0 rounded-full bg-gradient-to-br from-gray-100 to-gray-200;
+  }
+
+  .tip-circle-content {
+    @apply relative z-10 text-center;
+  }
+
+  .coin-icon {
+    @apply absolute -top-2 -right-2 w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold shadow-lg;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

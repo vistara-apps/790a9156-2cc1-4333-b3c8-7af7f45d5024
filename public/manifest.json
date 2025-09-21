@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjEyMzQ1LCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4MTIzNDU2Nzg5MGFiY2RlZjEyMzQ1Njc4OTBhYmNkZWYxMjM0NTY3OCJ9",
+    "payload": "eyJkb21haW4iOiJsaWtldGlwei5iYXNlLm9yZyJ9",
+    "signature": "0x1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef1234567890abcdef1c"
+  },
+  "frame": {
+    "version": "1",
+    "name": "LikeTipz",
+    "homeUrl": "https://liketipz.base.org",
+    "iconUrl": "https://liketipz.base.org/icon.png",
+    "splashImageUrl": "https://liketipz.base.org/splash.png",
+    "splashBackgroundColor": "#1f2937",
+    "webhookUrl": "https://liketipz.base.org/api/webhook",
+    "subtitle": "Tip creators on their content",
+    "description": "A Base mini app for Farcaster users to tip creators instantly on content they like. Support your favorite creators with one-click tipping directly from their posts.",
+    "screenshotUrls": [
+      "https://liketipz.base.org/screenshot1.png",
+      "https://liketipz.base.org/screenshot2.png",
+      "https://liketipz.base.org/screenshot3.png"
+    ],
+    "primaryCategory": "social",
+    "tags": ["tipping", "creators", "social", "base", "farcaster"],
+    "heroImageUrl": "https://liketipz.base.org/hero.png",
+    "tagline": "Tip creators directly on their likes",
+    "ogTitle": "LikeTipz - Support Creators Instantly",
+    "ogDescription": "Tip creators directly on their Farcaster posts with one click. Built on Base for instant, low-cost transactions.",
+    "ogImageUrl": "https://liketipz.base.org/og-image.png"
+  }
+}
