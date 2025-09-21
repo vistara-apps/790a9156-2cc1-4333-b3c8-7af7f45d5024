@@ -2,10 +2,9 @@
 
 import { useState } from 'react'
 import { TipButton } from './TipButton'
-import { useMiniKit } from '@coinbase/minikit'
-
 export function TipInterface() {
-  const { context } = useMiniKit()
+  // Access MiniKit context through window object
+  const context = typeof window !== 'undefined' ? (window as any).MiniKit : null
   const [tipPercentage] = useState(16) // Mock percentage based on likes
   const [isLoading, setIsLoading] = useState(false)
 
