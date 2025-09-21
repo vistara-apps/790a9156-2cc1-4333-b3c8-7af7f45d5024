@@ -1,6 +1,5 @@
 'use client'
 
-import { useMiniKit } from '@coinbase/minikit'
 import { useEffect, useState } from 'react'
 
 interface AppShellProps {
@@ -8,7 +7,8 @@ interface AppShellProps {
 }
 
 export function AppShell({ children }: AppShellProps) {
-  const { context } = useMiniKit()
+  // Access MiniKit context through window object
+  const context = typeof window !== 'undefined' ? (window as any).MiniKit : null
   const [isLoaded, setIsLoaded] = useState(false)
 
   useEffect(() => {

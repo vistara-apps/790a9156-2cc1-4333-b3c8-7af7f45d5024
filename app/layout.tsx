@@ -6,6 +6,7 @@ import { Providers } from './providers'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://liketipz.vercel.app'),
   title: 'LikeTipz - Tip creators directly on their likes',
   description: 'A Base mini app for Farcaster users to tip creators instantly on content they like.',
   openGraph: {

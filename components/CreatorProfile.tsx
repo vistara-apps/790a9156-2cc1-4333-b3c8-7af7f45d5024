@@ -2,8 +2,6 @@
 
 import { useState, useEffect } from 'react'
 import { CreatorAvatar } from './CreatorAvatar'
-import { useMiniKit } from '@coinbase/minikit'
-
 interface Creator {
   farcasterId: string
   displayName: string
@@ -16,7 +14,8 @@ interface Creator {
 }
 
 export function CreatorProfile() {
-  const { context } = useMiniKit()
+  // Access MiniKit context through window object
+  const context = typeof window !== 'undefined' ? (window as any).MiniKit : null
   const [creator, setCreator] = useState<Creator | null>(null)
   const [isLoading, setIsLoading] = useState(true)
 
